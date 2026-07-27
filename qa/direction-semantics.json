@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "reviewed_by": "independent final visual QA worker",
+  "visual_qa": "pass",
+  "review_notes": "Final blind validation passed. The independent final visual QA accepted 157.5 and 202.5 as warnings because their lateral cues are subtle but the labeled normal-size loop preserves down-right to down to down-left without reversal. Continuity metric warnings show no conspicuous snap, pop, or identity change.",
+  "directions": [
+    {"degree":"000","verdict":"pass","expected":"up","observed":"front-facing up gaze","horizontal_evidence":"no horizontal axis required","vertical_evidence":"both pupils above eye centers and chin lifted","reason":"unmistakable up cardinal"},
+    {"degree":"022.5","verdict":"pass","expected":"up-right","observed":"slight up-right gaze","horizontal_evidence":"pupils and face begin moving screen-right","vertical_evidence":"pupils remain high","reason":"first even step from up toward right"},
+    {"degree":"045","verdict":"pass","expected":"up-right","observed":"three-quarter up-right","horizontal_evidence":"nose and face project screen-right","vertical_evidence":"pupils remain above center","reason":"correct quadrant"},
+    {"degree":"067.5","verdict":"pass","expected":"up-right","observed":"near-profile up-right","horizontal_evidence":"nose and eye aim screen-right","vertical_evidence":"visible eye retains upward aim","reason":"correct quadrant"},
+    {"degree":"090","verdict":"pass","expected":"right","observed":"clear screen-right profile","horizontal_evidence":"nose and visible pupil point to image-right","vertical_evidence":"no vertical axis required","reason":"unmistakable right cardinal"},
+    {"degree":"112.5","verdict":"pass","expected":"down-right","observed":"profile begins lowering","horizontal_evidence":"nose and face remain screen-right","vertical_evidence":"visible pupil and chin lower","reason":"correct quadrant"},
+    {"degree":"135","verdict":"pass","expected":"down-right","observed":"three-quarter down-right","horizontal_evidence":"face remains screen-right","vertical_evidence":"pupils and lids are downcast","reason":"correct quadrant"},
+    {"degree":"157.5","verdict":"warning","expected":"down-right","observed":"near-front down pose with a subtle right component","horizontal_evidence":"lateral cue is small and blind majority read the opposite sign","vertical_evidence":"down axis passed blind review with low pupils and lids","reason":"accepted only if final labeled loop confirms no wrong-quadrant reversal"},
+    {"degree":"180","verdict":"pass","expected":"down","observed":"front-facing down gaze","horizontal_evidence":"no horizontal axis required","vertical_evidence":"both pupils below eye centers with chin tucked","reason":"unmistakable down cardinal"},
+    {"degree":"202.5","verdict":"warning","expected":"down-left","observed":"near-front down pose with a subtle left component","horizontal_evidence":"lateral cue is small and blind majority read the opposite sign","vertical_evidence":"down axis passed blind review with low pupils and lids","reason":"accepted only if final labeled loop confirms no wrong-quadrant reversal"},
+    {"degree":"225","verdict":"pass","expected":"down-left","observed":"three-quarter down-left","horizontal_evidence":"nose and face project screen-left","vertical_evidence":"pupils and lids remain lowered","reason":"correct quadrant"},
+    {"degree":"247.5","verdict":"pass","expected":"down-left","observed":"near-profile down-left","horizontal_evidence":"nose and visible eye aim screen-left","vertical_evidence":"visible eye retains downward aim","reason":"correct quadrant"},
+    {"degree":"270","verdict":"pass","expected":"left","observed":"clear screen-left profile","horizontal_evidence":"nose and visible pupil lie left of head center while hair trails image-right","vertical_evidence":"no vertical axis required","reason":"unmistakable left cardinal"},
+    {"degree":"292.5","verdict":"pass","expected":"up-left","observed":"profile begins lifting","horizontal_evidence":"nose and face remain screen-left","vertical_evidence":"visible pupil and chin lift","reason":"correct quadrant"},
+    {"degree":"315","verdict":"pass","expected":"up-left","observed":"three-quarter up-left","horizontal_evidence":"face remains screen-left","vertical_evidence":"pupils sit above center","reason":"correct quadrant"},
+    {"degree":"337.5","verdict":"pass","expected":"up-left","observed":"near-front up-left one step before 000","horizontal_evidence":"subtle leftward face and pupil cue","vertical_evidence":"pupils are high with chin lifted","reason":"correct quadrant and continuous return toward up"}
+  ]
+}
