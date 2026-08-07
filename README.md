@@ -16,6 +16,9 @@
 
 包含 idle、running-right、running-left、waving、jumping、failed、waiting、running、review，以及两行 16 方向观察动画。
 
+- 待机时会眨眼、左右张望并挥手。
+- 指针触碰宠物时会挥手回应，不再蹲下。
+
 ## 安装
 
 将本仓库复制到 Codex 宠物目录：
