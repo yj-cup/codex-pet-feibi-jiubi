@@ -1,0 +1,28 @@
+{
+  "sprite_version": 2,
+  "idle_duration_ms": [
+    1680,
+    660,
+    660,
+    840,
+    840,
+    1920
+  ],
+  "idle_loop_seam_exact": true,
+  "half_open_eye_frames": [
+    1,
+    3
+  ],
+  "closed_eye_frame": 2,
+  "head_tilt": "very subtle",
+  "cloud_pixels_match": true,
+  "previous_release_direction_alpha_identical": true,
+  "previous_release_direction_rgb_mean_absolute_difference": [
+    0.7951519305889423,
+    0.7849387144431089,
+    0.7606701973157052
+  ],
+  "sprite_sha256": "c62cf75c40b6c648a4a1702baefe250042b2ecb390659514e980dfbe5e351cbc",
+  "runtime_visually_tested": false,
+  "direction_review": "Existing direction pose and blind-review records retained; no new blind review performed."
+}
